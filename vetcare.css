@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header-section{
     width: 100%;
     height: 125px;
@@ -31,16 +32,19 @@ nav ul, a{
     text-decoration: none;
     color: white;
     padding: 50px 45px;
+    font-size: 30px;
+    cursor: pointer;
 }
+
 nav ul li input{
-    display: block;
     width: 275px;
     height: 50px;
-    margin: 35px auto;
+    margin: 45px auto;
     border: none;
     background-color: #FFC400;
     position: relative;
 }
+
 .icon{
     width: 70px;
     height: 50px;
@@ -49,6 +53,7 @@ nav ul li input{
     top: 35px;
     right: 45px;
 }
+
 .icon .fa-magnifying-glass{
     color: #ffffff;
     position: absolute;
@@ -57,13 +62,12 @@ nav ul li input{
     font-size: 34px;
 }
 input::placeholder{
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 400;
     padding-left: 10px;
-}
-input[type="search"]{
-    font-size: 20px;
     color: #ffffff;
 }
+
 .main-section{
     width: 100%;
     height: 780px;
@@ -71,21 +75,10 @@ input[type="search"]{
     position: relative;
 }
 
-.main-section-2{
-    position: absolute;
-    width: 45%;
-    height:780px;
-    top: 0;
-    left: 55%;
-}
-.main-section-2 img{
-    width: 370px;
-    height: 560px;
-    margin-top: 200px;
-    margin-left: 250px;
-}
 .main-section-1{
     position: relative;
+    width:50%;
+    height: 100%;
 }
 .main-section-1 h1{
     font-family: 'Poppins', sans-serif;
@@ -130,9 +123,26 @@ input[type="search"]{
     height: 70px;
     position: relative;
 }
-.main-section ul a{
+.main-section-1-button ul a{
     position: absolute;
     font-family: 'Poppins', sans-serif;
-    top: -27px;
-    left: -7px;   
+    font-size: 20px;
+    top: -30px;
+    left: -25px;  
 }
+.section-2{
+    width:50%;
+    height: 100%;
+    background-color:#fcc302;
+    position: absolute;
+    top:0;
+    left:55%;
+}
+.section-2 img{
+    height: 570px;
+    width: 375px;
+    position: absolute;
+    top: 100px;
+    left: 115px;
+}
+/* First Section End */
