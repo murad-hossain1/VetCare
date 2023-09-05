@@ -36,14 +36,28 @@ nav ul li input{
     margin: 35px auto;
     border: none;
     background-color: #FFC400;
-}
-.search-list{
     position: relative;
 }
-.search-list .icon{
+.icon{
+    width: 70px;
+    height: 50px;
+    background-color:#00bec9;
+    position:absolute;
+    top: 35px;
+    right: 45px;
+}
+.icon .fa-magnifying-glass{
+    color: #ffffff;
     position: absolute;
-    
-    right: 0;
-    top: 0;
-   
+    top: 10px;
+    left: 17px;
+    font-size: 34px;
+}
+input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+input[type="search"]{
+    font-size: 20px;
+    color: #ffffff;
 }
