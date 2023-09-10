@@ -258,6 +258,151 @@ a {
 }
 
 /* 2nd section end */
+
+
+
+/*3rd section started*/
+.container-3 {
+    color: #ffffff;
+    width: 100%;
+    height: 1015px;
+    background-color: #fcc302;
+}
+
+.container-3 .c3-headline {
+    padding: auto;
+    width: 100%;
+    height: 375px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: #fcc302;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-3 h2 {
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.container-3 p {
+    font-size: 30px;
+}
+
+.vc-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vc-title {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.vc-title h3 {
+    font-size: 35px;
+}
+
+.vc-title p {
+    font-size: 20px;
+}
+
+/* 3rd section End ------------------*/
+
+
+
+/* 4th section started-------- */
+.container-four {
+    width: 100%;
+    height: 790px;
+    position: relative;
+}
+
+.c4-left {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.c4-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+
+.c4-left img {
+    position: absolute;
+    height: 480px;
+    width: 500px;
+    top: 140px;
+    left: 140px;
+    z-index: 2;
+}
+
+.c4-left .sqr {
+    position: absolute;
+    height: 480px;
+    width: 500px;
+    top: 140px;
+    left: 140px;
+    background-color: #fcc302;
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.c4-left .sqr2 {
+    width: 255px;
+    height: 205px;
+    position: absolute;
+    background-color: #fcc302;
+    bottom: 110px;
+    left: 47%;
+    z-index: 1;
+}
+
+.c4-right {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.c4-right h2 {
+    margin-top: 220px;
+    font-size: 45px;
+    padding-bottom: 50px;
+
+}
+
+.c4-right p {
+    font-size: 25px;
+}
+
+.service-butn {
+    position: absolute;
+    background-color: #fcc302;
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+    height: 70px;
+    padding: 30px auto;
+    border-radius: 5px;
+    top: 70%;
+    right: 350px;
+}
+
+.service-butn a {
+    padding-top: 23px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* 4th section started-------------------- */
+
+
 .container-2 .c2-title {
     width: 100%;
     height: 380px;
@@ -285,4 +430,45 @@ a {
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.discount {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.discount .first {
+    text-decoration: line-through;
+    display: inline-block;
+    padding-right: 30px;
+    text-decoration-thickness: 14%;
+}
+
+.s2-buy-button ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+.s2-buy-button ul li {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #00bec9;
+    border-radius: 50px;
+    width: 200px;
+    height: 65px;
+}
+
+.s2-buy-button ul .i-1 {
+    margin: 0 170px;
+}
+
+.s2-buy-button ul li a {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 45px;
 }
