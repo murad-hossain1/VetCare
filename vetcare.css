@@ -27,13 +27,19 @@
     margin-left: 20px;
 }
 
+nav {
+    width: 50%;
+    height: 125px;
+    margin-left: 270px;
+}
+
 nav ul,
 a {
     display: flex;
     list-style-type: none;
     text-decoration: none;
     color: white;
-    padding: 50px 45px;
+    padding: 20px 20px;
     font-size: 30px;
     cursor: pointer;
 }
@@ -59,7 +65,7 @@ a {
     display: inline-block;
     position: absolute;
     height: 53px;
-    width: 190px;
+    width: 270px;
     font-size: 20px;
     top: 34px;
     right: 44px;
@@ -110,45 +116,28 @@ input[type=text] {
     left: 150px;
 }
 
+
 .main-section-1-button {
-    margin-top: 40px;
     position: absolute;
-    top: 415px;
-    left: 150px;
+    top: 55%;
+    left: 100px;
 }
 
-.main-section-1-button ul,
-a {
-    text-decoration: none;
-    list-style-type: none;
+.main-section-1-button ul {
     display: flex;
-}
-
-.main-section ul .li-1 {
-    background-color: #00bec9;
-    border-radius: 8px;
-    width: 185px;
-    height: 70px;
-    position: relative;
-}
-
-.main-section ul .li-2 {
-    background-color: #fcc302;
-    border: 1px solid #ffffff;
-    margin-left: 40px;
-    border-radius: 8px;
-    width: 185px;
-    height: 70px;
-    position: relative;
-}
-
-.main-section-1-button ul a {
-    position: absolute;
+    justify-content: space-between;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    top: -30px;
-    left: -25px;
+    list-style-type: none;
 }
+
+.main-section-1-button ul li {
+    margin: 45px;
+    background-color: #00bec9;
+    border-radius: 20px;
+}
+
+
+
 
 .section-2 {
     width: 50%;
@@ -156,7 +145,7 @@ a {
     background-color: #fcc302;
     position: absolute;
     top: 0;
-    left: 55%;
+    left: 50%;
 }
 
 .section-2 img {
@@ -302,6 +291,11 @@ a {
     justify-content: space-around;
 }
 
+.vc-img .vg {
+    border: 5px solid white;
+}
+
+
 .vc-title {
     display: flex;
     font-family: 'Poppins', sans-serif;
@@ -438,6 +432,14 @@ a {
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.img-section .c2-img1,
+.c2-img2,
+.c2-img3 {
+    border: 5px solid white;
+    width: auto;
+    height: auto;
 }
 
 .discount {
